@@ -1,0 +1,49 @@
+.navbar {
+  margin-right: 50px;
+}
+
+  body {
+    background-color: #948379;
+}
+
+  #myCarousel .carousel-item img {
+    height: 460px;
+    object-fit: cover;
+}
+
+  #myCarousel .carousel-caption h1 {
+    font-size: 40px;
+}
+
+  .navbar .nav-link.active {
+    background-color: black;
+    color: white;
+}
+/*Buttons*/
+.btn-custom {
+  width: 450px;
+  margin-bottom:20px;
+}
+
+  /* Adjustments for responsiveness */
+  @media (max-width: 768px) {
+  .navbar {
+    margin-right: 0;
+}
+
+  #logo {
+    margin-top: 10px;
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  #myCarousel .carousel-item img {
+    height: auto;
+}
+
+  #myCarousel .carousel-caption h1 {
+    font-size: 30px;
+}
+}
